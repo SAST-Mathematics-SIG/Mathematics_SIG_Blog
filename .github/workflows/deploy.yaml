@@ -21,11 +21,6 @@ jobs:
       with:
         path: deploy_source/content
 
-    # - name: Install tree
-    #   run: |
-    #         sudo apt-get update
-    #         sudo apt-get install tree
-
     - name: Remove Readme and License
       run: |
             rm deploy_source/content/README.md
@@ -36,8 +31,6 @@ jobs:
             cd deploy_source
             git submodule update --init --recursive
 
-    # - name: Print current file tree
-    #   run: tree -L 3 deploy_source
 
     - name: Setup Hugo
       uses: peaceiris/actions-hugo@v3
@@ -45,12 +38,20 @@ jobs:
         extended: true
 
     - name: Build
-      run: hugo
+      run: hugo --minify
       working-directory: deploy_source
+
+    # - name: Install tree
+    #   run: |
+    #         sudo apt-get update
+    #         sudo apt-get install tree
+
+    # - name: Print current file tree
+    #   run: tree -L 3 deploy_source
 
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v4
       if: github.ref == 'refs/heads/main'
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./public
+        publish_dir: deploy_source/public
