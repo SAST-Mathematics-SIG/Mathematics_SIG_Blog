@@ -7,7 +7,8 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
-
+    permissions:
+      contents: write
     steps:
     - name: Checkout deploy_source repository
       uses: actions/checkout@v4
@@ -20,18 +21,36 @@ jobs:
       with:
         path: deploy_source/content
 
-    - name: Print current file tree
-      run: ls -R deploy_source
+    # - name: Install tree
+    #   run: |
+    #         sudo apt-get update
+    #         sudo apt-get install tree
+
+    - name: Remove Readme and License
+      run: |
+            rm deploy_source/content/README.md
+            rm deploy_source/content/LICENSE
+
+    - name: Fetch submodules
+      run: |
+            cd deploy_source
+            git submodule update --init --recursive
+
+    # - name: Print current file tree
+    #   run: tree -L 3 deploy_source
 
     - name: Setup Hugo
       uses: peaceiris/actions-hugo@v3
+      with:
+        extended: true
 
     - name: Build
-      run: hugo --minify
+      run: hugo
+      working-directory: deploy_source
 
-    # - name: Deploy
-    #   uses: peaceiris/actions-gh-pages@v3
-    #   if: github.ref == 'refs/heads/main'
-    #   with:
-    #     github_token: ${{ secrets.GITHUB_TOKEN }}
-    #     publish_dir: ./public
+    - name: Deploy
+      uses: peaceiris/actions-gh-pages@v3
+      if: github.ref == 'refs/heads/main'
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./public
