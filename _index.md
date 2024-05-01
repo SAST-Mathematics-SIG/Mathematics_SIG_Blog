@@ -3,39 +3,30 @@ title: Introduction
 type: docs
 ---
 
-# Acerbo datus maxime
+# Introduction | 介绍
 
-{{< columns >}}
-## Astris ipse furtiva
+## 关于我们
 
-Est in vagis et Pittheus tu arge accipiter regia iram vocatur nurus. Omnes ut
-olivae sensit **arma sorori** deducit, inesset **crudus**, ego vetuere aliis,
-modo arsit? Utinam rapta fiducia valuere litora _adicit cursu_, ad facies
+我们是来自[NJUPT SAST](https://sast.fun/)组成的一个数学向的SIG(**S**pecial **I**nterest **G**roup)兴趣小组，我们尝试给予一个内部的相对 Friendly 的数学讨论平台
 
-<--->
+## 这是什么
 
-## Suis quot vota
+该网页是以Wiki性质的信息公示站，在这里会记录下SIG的一些相关分享会的活动，例如，你可以在此处找到
 
-Ea _furtique_ risere fratres edidit terrae magis. Colla tam mihi tenebat:
-miseram excita suadent es pecudes iam. Concilio _quam_ velatus posset ait quod
-nunc! Fragosis suae dextra geruntur functus vulgata.
-{{< /columns >}}
+1. 关于本站的开发的信息
+2. Mathematic SIG分享会等信息
+3. 成员写的单篇或者连载的笔记
 
+## 想要贡献
 
-## Tempora nisi nunc
+如果您想要贡献文章，请阅读xxx，
 
-Lorem **markdownum** emicat gestu. Cannis sol pressit ducta. **Est** Idaei,
-tremens ausim se tutaeque, illi ulnis hausit, sed, lumina cutem. Quae avis
-sequens!
+{{< hint info >}}
+请注意，我们原则上不接受来自NJUPT SAST外部的贡献，您的贡献需要借由SAST内部的人员来进行
+{{< /hint>}}
 
-    var panel = ram_design;
-    if (backup + system) {
-        file.readPoint = network_native;
-        sidebar_engine_device(cell_tftp_raster,
-                dual_login_paper.adf_vci.application_reader_design(
-                graphicsNvramCdma, lpi_footer_snmp, integer_model));
-    }
+## 鸣谢
 
-## Locis suis novi cum suoque decidit eadem
-
-Idmoniae ripis, at aves, ali missa adest, ut _et autem_, et ab?
+本站的搭建离不开以下工具和开源项目的支持
+- hugo
+- hugo-book

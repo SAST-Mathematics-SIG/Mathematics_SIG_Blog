@@ -1,22 +1,9 @@
 ---
-headless: true
+headless: false
 ---
 
-- [**Example Site**]({{< relref "/docs/example" >}})
-- [Table of Contents]({{< relref "/docs/example/table-of-contents" >}})
-  - [With ToC]({{< relref "/docs/example/table-of-contents/with-toc" >}})
-  - [Without ToC]({{< relref "/docs/example/table-of-contents/without-toc" >}})
-- [Collapsed]({{< relref "/docs/example/collapsed" >}})
-  - [3rd]({{< relref "/docs/example/collapsed/3rd-level" >}})
-    - [4th]({{< relref "/docs/example/collapsed/3rd-level/4th-level" >}})
-<br />
-
-- **Shortcodes**
-- [Buttons]({{< relref "/docs/shortcodes/buttons" >}})
-- [Columns]({{< relref "/docs/shortcodes/columns" >}})
-- [Expand]({{< relref "/docs/shortcodes/expand" >}})
-- [Hints]({{< relref "/docs/shortcodes/hints" >}})
-- [KaTeX]({{< relref "/docs/shortcodes/katex" >}})
-- [Mermaid]({{< relref "/docs/shortcodes/mermaid" >}})
-- [Tabs]({{< relref "/docs/shortcodes/tabs" >}})
+- [**贡献须知**]({{< relref "/docs/contribute_helper" >}})
+- [本站文档编写教程]({{< relref "/docs/contribute_helper/文档编写教程" >}})
+  - [基础markdown语法]({{< relref "/docs/contribute_helper/文档编写教程/基础markdown语法" >}})
+  - [本站扩展语法——shortcodes]({{< relref "/docs/contribute_helper/文档编写教程/本站扩展语法" >}})
 <br />
