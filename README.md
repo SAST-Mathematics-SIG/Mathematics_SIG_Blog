@@ -1,2 +1,2 @@
-# Mathematic_SIG_Blog
-SAST.Mathematic SIG blog files.
+# Mathematics_SIG_Blog
+SAST.Mathematics SIG blog files.
