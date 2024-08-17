@@ -26,6 +26,6 @@
 
 接着你就可以进入提交 pr 的界面了，注意，请你指定一个 Reviewer 来检查你的提交，Assignees 请你指定你自己
 
-![alt text](create_pr.png)
+![alt text](pics/create_pr.png)
 
 创建完成后，你可以在仓库的 pull request 处看见自己提交的 pr，你需要等待 Reviewer 检查后方可合入
