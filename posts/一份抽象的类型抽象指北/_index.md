@@ -1,5 +1,7 @@
 ---
 author: "宣孝卿"
+linktitle: 
+Type abstraction
 date: 2024-8-17
 menu:
   main:
