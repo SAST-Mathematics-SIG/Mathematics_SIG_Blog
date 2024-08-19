@@ -19,7 +19,7 @@ type: docs
 
 ## 想要贡献
 
-如果您想要贡献文章，请阅读xxx，
+如果您想要贡献文章，请阅读[贡献须知]({{< relref "/docs/contribute_helper" >}})，
 
 {{< hint info >}}
 请注意，我们原则上不接受来自NJUPT SAST外部的贡献，您的贡献需要借由SAST内部的人员来进行
