@@ -1,3 +1,7 @@
+---
+title: "使用pull request提交文档"
+---
+
 # 使用pull request提交文档
 
 本站部署基于 **SAST-Mathematics-SIG** 下的三个Github仓库

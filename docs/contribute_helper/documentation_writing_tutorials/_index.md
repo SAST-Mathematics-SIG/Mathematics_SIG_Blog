@@ -1,5 +1,6 @@
 ---
 bookCollapseSection: true
+title: "文档编写教程"
 ---
 
 # 文档编写教程
@@ -21,7 +22,7 @@ bookCollapseSection: true
 由上一部分可知，想要提交您的文档，您需要了解
 
 1. Markdown的基本语法，熟练使用Markdown进行文档编写：
-   - [基础markdown语法]({{< relref "/docs/contribute_helper/文档编写教程/基础markdown语法" >}})
-   - [本站扩展语法——shortcodes]({{< relref "/docs/contribute_helper/文档编写教程/本站扩展语法" >}})
+   - [基础markdown语法]({{< relref "/docs/contribute_helper/documentation_writing_tutorials/basic_markdown_syntax" >}})
+   - [本站扩展语法——shortcodes]({{< relref "/docs/contribute_helper/documentation_writing_tutorials/extend_markdown_syntax" >}})
 2. GitHub的使用，学会使用Git：
-   - [如何向仓库提交PR]({{< relref "/docs/contribute_helper/文档编写教程/使用pr提交文档" >}})
+   - [如何向仓库提交PR]({{< relref "/docs/contribute_helper/documentation_writing_tutorials/submit_documents_using_PR" >}})

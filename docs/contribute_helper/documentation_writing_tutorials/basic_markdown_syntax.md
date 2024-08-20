@@ -1,3 +1,7 @@
+---
+title: "基础markdown语法"
+---
+
 # 基础markdown语法
 
 Markdown 是一种轻量级的“标记语言”，由 John Gruber 于 2004 年创建，Markdown 的语法十分简单，正是因为其轻量化的特点，才被众多写作爱好者广泛应用

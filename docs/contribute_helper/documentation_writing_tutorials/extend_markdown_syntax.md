@@ -1,3 +1,7 @@
+---
+title: "本站扩展语法"
+---
+
 # 本站扩展语法——shortcodes
 
 本站使用hugo与hugo-book搭建，支持一些称之为shortcodes的markdown扩展语法，接下来我们就详细介绍一下
