@@ -8,7 +8,7 @@ tags = [
 categories = [
     "Type Theory",
 ]
-date = "2024-6-5"
+date = "2024-06-05"
 menu = "main"
 +++
 
