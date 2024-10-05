@@ -9,6 +9,8 @@ type: docs
 
 我们是来自[NJUPT SAST](https://sast.fun/)组成的一个数学向的SIG(**S**pecial **I**nterest **G**roup)兴趣小组，我们尝试给予一个内部的相对 Friendly 的数学讨论平台
 
+{{< button href="https://github.com/SAST-Mathematics-SIG" >}}前往SIG的GITHUB组织{{< /button >}}
+
 ## 这是什么
 
 该网页是以Wiki性质的信息公示站，在这里会记录下SIG的一些相关分享会的活动，例如，你可以在此处找到
